@@ -1,0 +1,29 @@
+The below exercise will be used to evaluate your knowledge and expertise in Oracle SQL. 
+
+First, please follow the below steps: 
+1-Download the attached dump file 
+2-Create a User on your installed Oracle Database called TEST 
+3-Import the dump file into user Test. (Dump was exported from same user TEST) 
+4-Open the User Test: You will find 5 Tables: 
+CUSTOMER_ALL : Table contains list of customers 
+CONTRACT_ALL : Table contains list of contracts i.e. mobile numbers 
+ORDERHDR_ALL : Table contains Bills related to Customers 
+CASHRECEIPTS_ALL : Table contains Payments for Bills 
+CASHDETAIL : Table is used to link Payments with Bills 
+
+Second, provide answers to the following questions: 
+Q1: How many customers have more than 2 contracts? 
+Q2: How many customers do not have any contracts? 
+Q3: How many customers have all their bills closed? (Hint: open bills have ORDERHDR_ALL.OHOPNAMT_DOC <> 0) 
+Q4: How many customers have all their bills open? 
+Q5: How many customers do not have any bills? 
+Q6: How many customer have some of their bills open and some closed? 
+Q7: What is the total open amount for customers who have more than 1 contracts but less than 3 contracts? (Hint: use ORDERHDR_ALL.OHOPNAMT_DOC) 
+Q8: How many contracts belong to customers with open bills? 
+Q9: How many customers have all the bills closed with payment made before 01-Jan-2007? (Hint: use cashreceipts_all.caentdate to get the date of payment) 
+Q10: How many customers have only 1 contract but have more than 1000 open amount? 
+Q11: How many customers have bills that are paid partially i.e. bill has payment but still open? 
+
+Tips: 
+-Use the Referential Integrity Constraints to understand relations between tables 
+-Read Table/Column Comments
