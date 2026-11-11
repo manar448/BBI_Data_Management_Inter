@@ -1,5 +1,5 @@
 
-# 🚀 Data Engineering Training
+# 🚀 Data Management Training
 
 <p align="center">
   <img src="https://img.shields.io/badge/Field-Data%20Engineering-blue?style=for-the-badge" />
