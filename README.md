@@ -2,7 +2,7 @@
 # 🚀 Data Management Training
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Field-Data%20Engineering-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Field-Data%20Management-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SQL-Oracle-red?style=for-the-badge&logo=oracle" />
   <img src="https://img.shields.io/badge/ETL-Informatica-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Data%20Warehousing-green?style=for-the-badge" />
@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-This repository documents my learning journey and practical experience during my internal **Data Engineering Training**.
+This repository documents my learning journey and practical experience during my internal **Data Management Training**.
 
 The training focused on understanding Data Warehousing concepts, Data Modeling, SQL development, and ETL processes using **Oracle SQL Developer** and **Informatica Intelligent Cloud Services (IICS)**.
 
